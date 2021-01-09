@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 
 ## Project Overview
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
@@ -51,8 +51,11 @@ To calculate the voter turnout and percentage of votes by county, I sequentially
   - Rows 94-98, I wrote a `for` loop to get the county from the `county_votes` dictionary. Next, I initialized the variable `county_vote_count ` to hold the county's votes. Then, I wrote a script to calculate the county's percentage of votes using variable `county_vote_percentage`.
   
   - Row 99, I intialized a string called `county_results` to capture the current county, its percentage of the total votes and its total voter turnout. On Row 102, I wrote a print statment to print `county_results` to the command line.
-  
-  - Rows 106-108, I wrote a decision statement to determine the county with the largest turnout, and in Rows 111-155 I printed the results to the command line.
+ 
+To determine the county with the largest voter turnout, I added code to:
+
+  - Rows 106-108, I wrote a decision statement to determine the county with the largest turnout and added that county and its vote count to the `largest_county` and `largest_turnout` variables.
+  - Rows 111-115, I printed the `county_turnout_results` to the command line.
 
 After I added my code determining the additional requests for data, I ran my code in Git Bash and confirmed that my output matched the image shown in the challenge assignment, as my screenshot shows below:
 
@@ -73,6 +76,6 @@ In summary, the additional election analysis shows that:
 I'd like to emphasize to the Colorado Board of Elections that this python script is versatile. It can be reused again and again to run analysis quickly and easily for future Colorado elections. It can even be modified to include the following things, such as:
 
 1. I could easily add a script to rank counties by voter turnout results, instead of just determining the county with the largest turnout. 
-2. If I knew additional things like each county's total registered voters, for example, then I could calculate voter turnout by county as a percentage of its total registered voters. Analyzing this information might reveal where election officials should focus to increase turnout.
+2. If I knew additional things like each county's total registered voters, for example, then I could calculate voter turnout by county as a percentage of its total registered voters. Analyzing this information might reveal where election officials should focus to increase turnout for future elections.
 3. I could add a script to deteremine whether a recount or runoff is necessary within a certain margin of error.
 
