@@ -28,13 +28,18 @@ The analysis of the election show that:
   - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
   
 ## Challenge Overview
-The election commission has requested some additional data to complete the audit:
+The election commission has requested some additional data to complete the election audit:
 
 1. Calculate the voter turnout for each county.
 2. Calculate the percentage of votes from each county out of the total vote count.
 3. Determine the county with the largest turnout.
 
 ## Challenge Results
+After I determined the additional data requests, I was instructed to print the election results to the Command Line. I ran my code in Git Bash and confirmed that my output matched the image shown in the challenge assignment, as my screen shot shows below:
+<img src="images/Command Line Output.PNG">
+
+Then, I was instructed to save the election results to a text file. I confirmed that the output was written to my text file correctly, as my screen shot shows below:
+<img src="images/Text File Output.PNG">
 
 ## Challenge Summary
 The additional analysis shows that:
