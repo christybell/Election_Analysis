@@ -63,9 +63,16 @@ I was also instructed to save the additional election results to a text file on 
 <img src="images/Text File Output.PNG">
 
 ## Challenge Summary
-In summary, the additional analysis shows that:
+In summary, the additional election analysis shows that:
 - Denver County had the largest turnout of voters in the election.
 - The county results were:
   - Jefferson County had 38,855 votes, representing 10.5% of the total vote count.
   - Denver County had 306,055 votes, representing 82.8% of the total vote count.
   - Arapahoe County had 24,801 votes, representing 6.7% of the total vote count.
+  
+I'd like to emphasize to the Colorado Board of Elections that this python script is versatile. It can be reused again and again to run analysis quickly and easily for future Colorado elections. It can even be modified to include the following things, such as:
+
+1. I could easily add a script to rank counties by voter turnout results, instead of just determining the county with the largest turnout. 
+2. If I knew additional things like each county's total registered voters, for example, then I could calculate voter turnout by county as a percentage of its total registered voters. Analyzing this information might reveal where election officials should focus to increase turnout.
+3. I could add a script to deteremine whether a recount or runoff is necessary within a certain margin of error.
+
